@@ -6,16 +6,18 @@ Technical foundation to build, deploy, compose and manage distributed frontend a
 
 The following areas will be addressed (but not limited to), either within the template or as supportive tooling:
 
-- ✅ Basic Vite module-federation template: host and 2 remotes, interacting locally.
-- Communication: between micro-frontends and the host app. Not all micro-frontends may use module-federation.
-- Runtime error management: tracing, observabilty, isolating crashes...
-- Developer experience: typescript support, proxying between environments... how to keep a good DX. 
-- Service discovery: runtime discovery of available services to compose
-- Versioning: how to automatically version new releases and keep track of the deployed service graph (could be a tool).
-- Deployments: micro-frontend deployments, health checks, source-maps, iframing legacy apps, preferred process and needed environments...
-- Performance: bundle-sizes, and other relevant metrics (e.g. TTI).
-- Testing: e2e, contract, unit... in a distributed context.
-- CI pipelines: encourage non-breaking APIs and best practices in a distributed environment. May not be applicable, but worth looking into it nonetheless.
+- [x] https://github.com/aperkaz/micro-frontend-template/issues/1 : basic Vite module-federation template: host and 2 remotes, interacting locally. 
+- [ ] https://github.com/aperkaz/micro-frontend-template/issues/3 : Investigate exposing types from remotes.
+- [ ] Mix and match Vite and Webpack remotes, to support multiple bundlers.
+- [ ] Communication: between micro-frontends and the host app. Not all micro-frontends may use module-federation.
+- [ ] Runtime error management: tracing, observabilty, isolating crashes...
+- [ ] Developer experience: typescript support, proxying between environments... how to keep a good DX. 
+- [ ] Service discovery: runtime discovery of available services to compose
+- [ ] Versioning: how to automatically version new releases and keep track of the deployed service graph (could be a tool).
+- [ ] Deployments: micro-frontend deployments, health checks, source-maps, iframing legacy apps, preferred process and needed environments...
+- [ ] Performance: bundle-sizes, and other relevant metrics (e.g. TTI).
+- [ ] Testing: e2e, contract, unit... in a distributed context.
+- [ ] CI pipelines: encourage non-breaking APIs and best practices in a distributed environment. May not be applicable, but worth looking into it nonetheless.
 - ...
 
 ## Reference material (books, papers, articles)
