@@ -6,6 +6,7 @@ Technical foundation to build, deploy, compose and manage distributed frontend a
 
 The following areas will be addressed (but not limited to), either within the template or as supportive tooling:
 
+- ✅ Basic Vite module-federation template: host and 2 remotes, interacting locally.
 - Communication: between micro-frontends and the host app. Not all micro-frontends may use module-federation.
 - Runtime error management: tracing, observabilty, isolating crashes...
 - Developer experience: typescript support, proxying between environments... how to keep a good DX. 
@@ -20,4 +21,4 @@ The following areas will be addressed (but not limited to), either within the te
 ## Reference material (books, papers, articles)
 
 - [Building Micro-Frontends](https://www.amazon.com/Building-Micro-Frontends-Projects-Empowering-Developers/dp/1492082996/ref=sr_1_1?crid=1TL3UH4TZ2B1Y&dib=eyJ2IjoiMSJ9.-NFWnjb54zvD3j6UcIcVJrZef17Qr8dTl9EvUq_np5YArlLF52QrYnYk6eQ2r2zcSy1HIQuaHh_piP24ZN4B1kfQjfE6jvzUkpXaSbIFkooNDF-H0IYgucPnK_njd768.adrL2FiHhthmdpBAbYeeZrhQYx5VPQ2F-ejuDMw9Ep4&dib_tag=se&keywords=building+micro+frontend&qid=1715592749&sprefix=building+microfrontend%2Caps%2C241&sr=8-1)
-- ...
+- [Areas to consider when building micro-services](https://joshclemm.com/writing/want-to-move-to-microservices/)
