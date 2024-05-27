@@ -7,7 +7,7 @@ Technical foundation to build, deploy, compose and manage distributed frontend a
 The following areas will be addressed (but not limited to), either within the template or as supportive tooling:
 
 - [x] https://github.com/aperkaz/micro-frontend-template/issues/1 : basic Vite module-federation template: host and 2 remotes, interacting locally. 
-- [ ] https://github.com/aperkaz/micro-frontend-template/issues/3 : Investigate exposing types from remotes.
+- [x] https://github.com/aperkaz/micro-frontend-template/issues/3 : Investigate exposing types from remotes.
 - [ ] Mix and match Vite and Webpack remotes, to support multiple bundlers.
 - [ ] Communication: between micro-frontends and the host app. Not all micro-frontends may use module-federation.
 - [ ] Runtime error management: tracing, observabilty, isolating crashes...
