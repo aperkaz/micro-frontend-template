@@ -13,6 +13,7 @@ Example of monorepo configuration, for performance reasons vs federated-frontend
   const Fizzbuzz = lazy(() => import('../remote1/index.tsx'));
   const { fizzbuzz }= await import('../remote1/Index.tsx')
   ```
+- controlled dependency graph: https://github.com/smikula/good-fences 
 
 ## Performance measurement
 

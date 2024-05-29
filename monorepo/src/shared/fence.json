@@ -1,0 +1,10 @@
+{
+  "tags": ["shared"],
+  "imports": [],
+  "exports": [
+    {
+      "modules": "index",
+      "accessibleTo": ["host", "remote"]
+    }
+  ]
+}

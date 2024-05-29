@@ -50434,6 +50434,6 @@ export const fizzbuzz = (count: number) => {
 }
 
 export const Fizzbuzz = ({count}: {count: number}) => {
-    return <button onClick={() => {fizzbuzz(count)}}>remote: calculate fizzfuzz</button>
+    return <button onClick={() => {fizzbuzz(count)}}>remote 1: calculate fizzfuzz</button>
 }
 export default Fizzbuzz;
