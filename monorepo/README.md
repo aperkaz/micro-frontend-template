@@ -2,6 +2,8 @@
 
 Example of monorepo configuration, for performance reasons vs federated-frontend.
 
+[Excalidraw Schema](https://excalidraw.com/#json=MHX01dMoSViFOJPeI6m2J,KOMIB2kOS7mSEpwbR1irSQ)
+
 ## Considerations
 
 - load-time performance: chunk sizing can be kept in check leveraging [Rect.lazy](https://react.dev/reference/react/lazy) and [dynamic imports](https://mariusschulz.com/blog/dynamic-import-expressions-in-typescript).
@@ -21,6 +23,7 @@ Example of monorepo configuration, for performance reasons vs federated-frontend
 **Node 20.11**
 
 - baseline (only host): 
+  - `npm run dev`: 155ms
   - `npm run build`: 2.22s user 0.21s system 158% cpu 1.536 total
 ```
 ✓ 34 modules transformed.
@@ -30,10 +33,10 @@ dist/assets/index-DiwrgTda.css    1.39 kB │ gzip:  0.72 kB
 dist/assets/index-BhLPtGA-.js   143.36 kB │ gzip: 46.10 kB
 ✓ built in 370ms
 ```
-  - `npm run dev`: 155ms
-
+  
 
 - host + 50 remote (50x +50k lines of code):
+  - `npm run dev`: 162ms
   - `npm run build`: 80.82s user 22.28s system 141% cpu 1:12.91 total
 ```
 ✓ 86 modules transformed.
@@ -94,4 +97,3 @@ dist/assets/Index-DB1BYseC.js   362.62 kB │ gzip:  1.73 kB
 dist/assets/Index-CRw2IO48.js   362.62 kB │ gzip:  1.73 kB
 ✓ built in 44.66s
 ```
-  - `npm run dev`: 162ms
